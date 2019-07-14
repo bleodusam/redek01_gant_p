@@ -22,7 +22,6 @@ void	print(int **tab, int p)
 {
 	int		i;
 	int		j;
-	char	c;
 
 	i = 0;
 	while (i < p)
@@ -31,6 +30,7 @@ void	print(int **tab, int p)
 		while (j < p)
 		{
 			ft_putchar(tab[i][j] + '0');
+			if(j < p - 1)
 			ft_putchar(' ');
 			j++;
 		}

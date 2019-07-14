@@ -131,7 +131,7 @@ int	check_left(int **arg, int **tab, int p)
 	return (1);
 }
 
-int	check_right(int **arg, int **tab)
+int	check_right(int **arg, int **tab, int p)
 {
 	int count;
 	int max_found;
